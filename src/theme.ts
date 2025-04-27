@@ -12,16 +12,6 @@ export const theme = createTheme({
       light: '#F9E866',
       dark: '#AC9B15',
     },
-    accent: {
-      main: '#3178C6', // TypeScript blue
-      light: '#5A9AD6',
-      dark: '#22548C',
-    },
-    highlight: {
-      main: '#47A248', // MongoDB green
-      light: '#6BB46C',
-      dark: '#327233',
-    },
     background: {
       default: '#000000',
       paper: 'rgba(114, 168, 244, 0.1)',
@@ -30,9 +20,6 @@ export const theme = createTheme({
       primary: '#FFFFFF',
       secondary: 'rgba(255, 255, 255, 0.7)',
     },
-    git : {
-        main: '#ff7858',
-    }
   },
   typography: {
     fontFamily: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif',

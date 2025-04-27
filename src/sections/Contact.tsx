@@ -1,4 +1,4 @@
-import { Box, Typography, Button, Grid } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import SectionHeader from '../components/SectionHeader';
 import { SiGithub, SiLinkedin, SiGmail } from 'react-icons/si';

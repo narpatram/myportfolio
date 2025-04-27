@@ -1,4 +1,4 @@
-import { Box, Grid } from '@mui/material';
+import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { keyframes } from '@emotion/react';
 import { SiReact, SiJavascript, SiTypescript, SiPython, SiFastapi, SiNodedotjs, SiMongodb, SiPostgresql, SiDocker, SiGit } from 'react-icons/si';

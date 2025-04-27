@@ -1,7 +1,6 @@
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useEffect, useState } from 'react';
-import { theme } from '../theme';
 
 const ScrollbarContainer = styled(Box)({
   position: 'fixed',
@@ -15,9 +14,8 @@ const ScrollbarContainer = styled(Box)({
   zIndex: 1000,
 });
 
-const ScrollbarThumb = styled(Box)<{ position: number }>(({ position }) => ({
+const ScrollbarThumb = styled(Box)(({ theme }) => ({
   position: 'absolute',
-  top: `${position}%`,
   left: 0,
   width: '100%',
   height: '30%',
@@ -44,7 +42,7 @@ const CustomScrollbar = () => {
 
   return (
     <ScrollbarContainer>
-      <ScrollbarThumb position={scrollPosition} />
+      <ScrollbarThumb sx={{ top: `${scrollPosition}%` }} />
     </ScrollbarContainer>
   );
 };

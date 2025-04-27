@@ -10,7 +10,7 @@ const StyledTypography = styled(Typography)(({ theme }) => ({
 })) as typeof Typography;
 
 const NameTypography = styled(Typography)(({ theme }) => ({
-  color: theme.palette.git.main,
+  color: theme.palette.secondary.main,
   display: 'inline',
   fontSize: '2rem',
 })) as typeof Typography;

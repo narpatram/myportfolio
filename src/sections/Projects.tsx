@@ -59,7 +59,7 @@ const LinkIcon = styled(Box)({
   },
 });
 
-const TechChip = styled(Chip)(({ theme }) => ({
+const TechChip = styled(Chip)(() => ({
   backgroundColor: 'rgba(255, 255, 255, 0.1)',
   color: 'white',
   margin: '4px',

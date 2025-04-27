@@ -5,7 +5,7 @@ import AnimatedLogo from './AnimatedLogo';
 
 const StyledAppBar = styled(AppBar, {
   shouldForwardProp: (prop) => prop !== 'scrolled'
-})<{ scrolled: boolean }>(({ theme, scrolled }) => ({
+})<{ scrolled: boolean }>(({ scrolled }) => ({
   backgroundColor: scrolled ? 'rgba(0, 0, 0, 0.8)' : 'transparent',
   backdropFilter: scrolled ? 'blur(10px)' : 'none',
   margin: '40px',
