@@ -6,12 +6,12 @@ import { SiGithub, SiLinkedin, SiGmail } from 'react-icons/si';
 const ContactContainer = styled(Box)(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center',
+  alignItems: 'flex-start',
   gap: theme.spacing(4),
 }));
 
 const ContactInfo = styled(Box)(({ theme }) => ({
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.primary,
 }));
 

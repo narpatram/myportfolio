@@ -30,6 +30,7 @@ const SkillsWrapper = styled(Box)({
   '&:hover': {
     animationPlayState: 'paused',
   },
+  width: 'max-content',
 });
 
 const SkillsDuplicate = styled(SkillsWrapper)({
@@ -75,22 +76,24 @@ const Skills = () => {
       <SectionHeader title="My Skills" />
       <SkillsContainer>
         <Box sx={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
-          <SkillsWrapper>
-            {skills.map((skill, index) => (
-              <SkillIcon key={index}>
-                <IconWrapper>{skill.icon}</IconWrapper>
-                <Box sx={{ color: 'white' }}>{skill.name}</Box>
-              </SkillIcon>
-            ))}
-          </SkillsWrapper>
-          <SkillsDuplicate>
-            {skills.map((skill, index) => (
-              <SkillIcon key={`duplicate-${index}`}>
-                <IconWrapper>{skill.icon}</IconWrapper>
-                <Box sx={{ color: 'white' }}>{skill.name}</Box>
-              </SkillIcon>
-            ))}
-          </SkillsDuplicate>
+          <Box sx={{ display: 'flex', width: 'max-content' }}>
+            <SkillsWrapper>
+              {skills.map((skill, index) => (
+                <SkillIcon key={index}>
+                  <IconWrapper>{skill.icon}</IconWrapper>
+                  <Box sx={{ color: 'white' }}>{skill.name}</Box>
+                </SkillIcon>
+              ))}
+            </SkillsWrapper>
+            <SkillsWrapper>
+              {skills.map((skill, index) => (
+                <SkillIcon key={`duplicate-${index}`}>
+                  <IconWrapper>{skill.icon}</IconWrapper>
+                  <Box sx={{ color: 'white' }}>{skill.name}</Box>
+                </SkillIcon>
+              ))}
+            </SkillsWrapper>
+          </Box>
         </Box>
       </SkillsContainer>
     </>

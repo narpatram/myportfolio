@@ -8,7 +8,7 @@ export const theme = createTheme({
       dark: '#4398B0',
     },
     secondary: {
-      main: '#F7DF1E', // JavaScript yellow
+      main: '#ff7858', // JavaScript yellow
       light: '#F9E866',
       dark: '#AC9B15',
     },
