@@ -33,11 +33,6 @@ const SkillsWrapper = styled(Box)({
   width: 'max-content',
 });
 
-const SkillsDuplicate = styled(SkillsWrapper)({
-  position: 'absolute',
-  left: '100%',
-  top: 0,
-});
 
 const SkillIcon = styled(Box)({
   display: 'flex',
