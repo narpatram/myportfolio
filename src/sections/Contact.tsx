@@ -46,7 +46,7 @@ const DownloadButton = styled(Button)(({ theme }) => ({
 const Contact = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
-    link.href = '/src/assets/resume.pdf';
+    link.href = '/assets/resume.pdf';
     link.download = 'Narpat_Ram_Resume.pdf';
     document.body.appendChild(link);
     link.click();

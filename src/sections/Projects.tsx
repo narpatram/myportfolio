@@ -73,7 +73,7 @@ const Projects = () => {
     {
       title: 'PrepMe.AI',
       description: 'Leading the development of a student-focused application using React and TypeScript for front-end, FastAPI for backend, and AWS infra for hosting & storage. The platform enables students to upload & curate content, interact with LLMs for personalized learning, and create & take custom assessments.',
-      image: '/src/assets/prepme.png',
+      image: '/assets/prepme.png',
       github: 'https://github.com/narpatram/PrepMe.AI',
       live: 'https://ecommerce-demo.vercel.app',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
@@ -81,7 +81,7 @@ const Projects = () => {
     {
       title: 'Analytics Dashboard',
       description: 'Developed scalable, JSON-controlled data visualization components using React, MUI, and Recharts, leveraging Cube.js for efficient data querying',
-      image: '/src/assets/analytics.png',
+      image: '/assets/analytics.png',
       github: 'https://github.com/yourusername/task-manager',
       live: 'https://task-manager-demo.vercel.app',
       technologies: ['React', 'Firebase', "Recharts", 'Redux', "Cube.Js"],
@@ -89,7 +89,7 @@ const Projects = () => {
     {
       title: 'Workflow Builder',
       description: 'Designed and Developed a workflow build application using ReactFlow with drag and drop functionalities',
-      image: '/src/assets/workflow.png',
+      image: '/assets/workflow.png',
       github: 'https://github.com/yourusername/portfolio',
       live: 'https://portfolio-demo.vercel.app',
       technologies: ['React', 'TypeScript', 'Recharts', 'ReactFlow'],
