@@ -14,7 +14,7 @@ const TimelineContainer = styled(Box)(({ theme }) => ({
     height: '100%',
     background: `linear-gradient(to bottom, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
     [theme.breakpoints.down('md')]: {
-      left: '20px',
+      left: '16px',
     },
   },
 }));
@@ -36,15 +36,15 @@ const ExperienceCard = styled(Paper)(({ theme }) => ({
     content: '""',
     position: 'absolute',
     top: '20px',
-    width: '20px',
-    height: '20px',
+    width: '12px',
+    height: '12px',
     borderRadius: '50%',
     background: theme.palette.primary.main,
     [theme.breakpoints.up('md')]: {
-      left: '-60px',
+      left: '-36px',
     },
     [theme.breakpoints.down('md')]: {
-      left: '-40px',
+      left: '-24px',
     },
   },
   [theme.breakpoints.up('md')]: {
@@ -52,13 +52,19 @@ const ExperienceCard = styled(Paper)(({ theme }) => ({
       marginLeft: 'auto',
       '&::before': {
         left: 'auto',
-        right: '-60px',
+        right: '-36px',
       },
     },
   },
   [theme.breakpoints.down('md')]: {
     width: 'calc(100% - 40px)',
     marginLeft: '40px',
+    padding: theme.spacing(2.5),
+  },
+  [theme.breakpoints.down('sm')]: {
+    width: 'calc(100% - 32px)',
+    marginLeft: '32px',
+    padding: theme.spacing(2),
   },
 }));
 

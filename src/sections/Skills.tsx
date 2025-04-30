@@ -68,7 +68,7 @@ const Skills = () => {
 
   return (
     <>
-      <SectionHeader title="My Skills" />
+      <SectionHeader title="Skill Set" />
       <SkillsContainer>
         <Box sx={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
           <Box sx={{ display: 'flex', width: 'max-content' }}>

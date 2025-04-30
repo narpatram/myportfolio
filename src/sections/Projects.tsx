@@ -98,7 +98,7 @@ const Projects = () => {
 
   return (
     <>
-      <SectionHeader title="My Projects" />
+      <SectionHeader title="Projects" />
       <Grid container spacing={4}>
         {projects.map((project, index) => (
           <Grid item xs={12} md={6} lg={4} key={index}>
