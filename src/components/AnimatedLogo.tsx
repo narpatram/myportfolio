@@ -15,7 +15,7 @@ const LogoContainer = styled(Box)(({ theme }) => ({
 const AnimatedLogo = () => {
   return (
     <LogoContainer>
-      N
+      NRK
     </LogoContainer>
   );
 };
